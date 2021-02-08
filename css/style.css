@@ -1,10 +1,11 @@
 
 .red {
   background-color: red;
-  }
+}
 
 .container {
   text-align: center;
+  margin: 0 auto;
 }
 
 .one {
@@ -15,6 +16,11 @@ h1 {
   font-size: 35px;
   margin-bottom: 2%;
 }
+
+.grey {
+  background-color: #f9f9f9;
+}
+
   .row {
   width: 992px;
   margin-left: auto;
