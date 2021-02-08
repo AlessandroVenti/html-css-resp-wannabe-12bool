@@ -21,76 +21,25 @@ h1 {
   background-color: #f9f9f9;
 }
 
-  .row {
-  width: 992px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
+.two {
+  margin-top: 5%;
 }
-
-/* BLOCCO LEZIONI */
-#lezioni .row>.left,
-#lezioni .row>.right {
-  width: 50%;
-  float: left;
-}
-
-#lezioni .row img {
-  /* per centrare orizzontalmente */
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-#lezioni {
-  text-align: center;
-}
-
-/* BLOCCO STEPS */
-#steps .row>.left,
-#steps .row>.central,
-#steps .row>.right {
-  float: left;
-  width: 33%;
-}
-
-#steps {
-  text-align: center;
-}
-
-/* BLOCCO PERCHE */
-#why {
-  text-align: center;
-}
-
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
-  width: 100%;
-  margin-top: 80px;
-}
-
-#why .row img {
+#fix .clearfix img {
+  height: 250px;
+  margin-top: 5%;
+  margin-bottom: 2%;
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
 }
 
-/* COMMON */
-.row::after {
-  content: '';
-  display: table;
-  clear: both;
+h3 {
+  margin: 2% 0;
 }
 
-.container.grey {
-  background-color: #f9f9f9;
+hr {
+  margin-top: 2%;
 }
-
 img {
   height: 200px;
-}
-
-.clear {
-  clear: both;
 }
