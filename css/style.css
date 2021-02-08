@@ -1,8 +1,3 @@
-
-.red {
-  background-color: red;
-}
-
 .container {
   text-align: center;
   margin: 0 auto;
@@ -24,6 +19,7 @@ h1 {
 .two {
   margin-top: 5%;
 }
+
 #fix .clearfix img {
   height: 250px;
   margin-top: 5%;
@@ -43,3 +39,27 @@ hr {
 img {
   height: 200px;
 }
+
+@media all and (min-width: 769px) and (max-width: 992px){
+
+  .container {
+    padding: 0 20px;
+  }
+
+ * {
+   font-size: 20px;
+   color: violet;
+ }
+
+}
+
+@media all and (max-width: 768px){
+
+  .container {
+    padding: 0 25px;
+  }
+
+ * {
+   font-size: 25px;
+   color: pink;
+ }
